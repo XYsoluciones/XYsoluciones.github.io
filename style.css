@@ -1,0 +1,26 @@
+html {
+  background-color: #A9CCE3;
+}
+body {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #7FB3D5 ;
+  padding: 0 10px 10px 10px;
+  border: 2px solid #FDFEFE;
+}
+
+
+.Titulo{
+  color: #34495E;
+  font-size: 30px;
+  text-align: center;
+  margin: 10;
+  padding: 0;
+  
+  }
+
+
+  img {
+  display: block;
+  margin: 0 auto;
+}
