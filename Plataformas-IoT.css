@@ -9,84 +9,17 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_LayoutGrid3
+#Layer1
 {
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #CCCCCC;
+   background-color: transparent;
+   background-image: url('images/herramientas-analisis-dispositivos-IoT.jpg');
+   background-repeat: repeat;
+   background-position: left top;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
    border-radius: 0px;
-   box-sizing: border-box;
    margin: 0;
-}
-#LayoutGrid3
-{
-   box-sizing: border-box;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid3 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
-{
-   float: left;
-}
-#LayoutGrid3 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 50%;
-   text-align: left;
-}
-#LayoutGrid3 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 50%;
-   text-align: left;
-}
-#LayoutGrid3:before,
-#LayoutGrid3:after,
-#LayoutGrid3 .row:before,
-#LayoutGrid3 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid3:after,
-#LayoutGrid3 .row:after
-{
-   clear: both;
-}
-@media (max-width: 320px)
-{
-#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
-{
-   float: none;
-   width: 100% !important;
-}
 }
 #wb_LayoutGrid1
 {
@@ -150,7 +83,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 320px)
+@media (max-width: 480px)
 {
 #LayoutGrid1 > .row > .col-1
 {
@@ -229,7 +162,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 320px)
+@media (max-width: 480px)
 {
 #LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2
 {
@@ -308,7 +241,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 320px)
+@media (max-width: 480px)
 {
 #LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
 {
@@ -387,7 +320,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 320px)
+@media (max-width: 480px)
 {
 #LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
 {
@@ -1169,10 +1102,14 @@ body
 {
    border: 0px solid #000000;
    border-radius: 0px;
+   box-sizing: border-box;
    padding: 0;
-   display: inline-block;
-   width: 384px;
-   height: 216px;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 380px;
+   margin-left: auto;
+   margin-right: auto;
    vertical-align: top;
 }
 #wb_Text5 
@@ -1253,10 +1190,14 @@ body
 {
    border: 0px solid #000000;
    border-radius: 0px;
+   box-sizing: border-box;
    padding: 0;
-   display: inline-block;
-   width: 384px;
-   height: 216px;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 380px;
+   margin-left: auto;
+   margin-right: auto;
    vertical-align: top;
 }
 #wb_Text6 
@@ -1337,10 +1278,14 @@ body
 {
    border: 0px solid #000000;
    border-radius: 0px;
+   box-sizing: border-box;
    padding: 0;
-   display: inline-block;
-   width: 219px;
-   height: 219px;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 380px;
+   margin-left: auto;
+   margin-right: auto;
    vertical-align: top;
 }
 #wb_PageHeader
@@ -1641,31 +1586,18 @@ body
    margin: 0;
    text-align: center;
 }
-#Line6
-{
-   border-color: #FFFFFF;
-   border-style: solid;
-   border-bottom-width: 80px;
-   border-top: 0;
-   border-left: 0;
-   border-right: 0;
-   height: 0 !important;
-   line-height: 0 !important;
-   margin: 0;
-   padding: 0;
-}
 #wb_PanelMenu1
 {
    display: inline-block;
    width: 63px;
    height: 70px;
-   z-index: 32;
+   z-index: 31;
 }
 #Line11
 {
    display: inline-block;
    width: 200px;
-   z-index: 16;
+   z-index: 15;
 }
 #wb_FontAwesomeIcon1
 {
@@ -1673,82 +1605,76 @@ body
    width: 40px;
    height: 40px;
    text-align: center;
-   z-index: 30;
+   z-index: 29;
 }
 #Line12
 {
    display: inline-block;
    width: 200px;
-   z-index: 18;
+   z-index: 17;
 }
 #wb_linksMenu2
 {
    display: inline-block;
    width: 100%;
-   z-index: 22;
+   z-index: 21;
 }
 #Line13
 {
    display: inline-block;
    width: 300px;
-   z-index: 14;
+   z-index: 13;
 }
 #Line5
 {
    display: inline-block;
    width: 200px;
-   z-index: 4;
+   z-index: 3;
 }
 #wb_linksMenu3
 {
    display: inline-block;
    width: 100%;
-   z-index: 28;
+   z-index: 27;
 }
 #Line4
 {
    display: inline-block;
    width: 200px;
-   z-index: 8;
+   z-index: 7;
 }
 #wb_Image2
 {
    display: inline-block;
-   width: 384px;
-   height: 216px;
-   z-index: 5;
+   width: 100%;
+   height: auto;
+   z-index: 4;
 }
 #wb_Image3
 {
    display: inline-block;
-   width: 384px;
-   height: 216px;
-   z-index: 10;
+   width: 100%;
+   height: auto;
+   z-index: 9;
 }
 #wb_linksMenu1
 {
    display: inline-block;
    width: 100%;
-   z-index: 20;
+   z-index: 19;
 }
 #wb_Image4
 {
    display: inline-block;
-   width: 219px;
-   height: 219px;
-   z-index: 15;
-}
-#Line6
-{
-   display: inline-block;
-   width: 250px;
-   z-index: 0;
+   width: 100%;
+   height: auto;
+   z-index: 14;
 }
 #Line1
 {
    display: inline-block;
    width: 471px;
-   z-index: 1;
+   z-index: 0;
 }
 #wb_linksIcon1
 {
@@ -1756,13 +1682,13 @@ body
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 23;
+   z-index: 22;
 }
 #Line3
 {
    display: inline-block;
    width: 471px;
-   z-index: 3;
+   z-index: 2;
 }
 #wb_linksIcon3
 {
@@ -1770,13 +1696,13 @@ body
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 25;
+   z-index: 24;
 }
 #Line2
 {
    display: inline-block;
    width: 200px;
-   z-index: 6;
+   z-index: 5;
 }
 #wb_linksIcon2
 {
@@ -1784,7 +1710,7 @@ body
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 24;
+   z-index: 23;
 }
 #wb_linksIcon4
 {
@@ -1792,31 +1718,42 @@ body
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 26;
+   z-index: 25;
+}
+#Layer1
+{
+   position: relative;
+   text-align: left;
+   width: 100%;
+   height: 551px;
+   float: left;
+   clear: left;
+   display: block;
+   z-index: 32;
 }
 #wb_Heading1
 {
    display: inline-block;
    width: 100%;
-   z-index: 31;
+   z-index: 30;
 }
 #Line9
 {
    display: inline-block;
    width: 200px;
-   z-index: 13;
+   z-index: 12;
 }
 #Line8
 {
    display: inline-block;
    width: 200px;
-   z-index: 11;
+   z-index: 10;
 }
 #Line10
 {
    display: inline-block;
    width: 200px;
-   z-index: 9;
+   z-index: 8;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px)
 {
@@ -1824,6 +1761,23 @@ body
 {
    background-color: #FFFFFF;
    background-image: none;
+}
+#Layer1
+{
+   height: 551px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Layer1
+{
+   width: 100%;
+   margin: 0;
+}
+#Layer1
+{
+    width: 100%;
+    height: 551px;
 }
 #wb_LayoutGrid1
 {
@@ -2421,17 +2375,11 @@ body
 }
 #wb_Image2
 {
-   width: 290px;
-   height: 163px;
+   width: 100%;
    visibility: visible;
-   display: inline-block;
+   display: block;
    margin: 0;
    padding: 0;
-}
-#Image2
-{
-   width: 290px;
-   height: 163px;
 }
 #wb_Text5
 {
@@ -2489,17 +2437,11 @@ body
 }
 #wb_Image3
 {
-   width: 290px;
-   height: 163px;
+   width: 100%;
    visibility: visible;
-   display: inline-block;
+   display: block;
    margin: 0;
    padding: 0;
-}
-#Image3
-{
-   width: 290px;
-   height: 163px;
 }
 #wb_Text6
 {
@@ -2557,17 +2499,11 @@ body
 }
 #wb_Image4
 {
-   width: 219px;
-   height: 219px;
+   width: 100%;
    visibility: visible;
-   display: inline-block;
+   display: block;
    margin: 0;
    padding: 0;
-}
-#Image4
-{
-   width: 219px;
-   height: 219px;
 }
 #wb_PageHeader
 {
@@ -2714,6 +2650,23 @@ body
    background-color: #FFFFFF;
    background-image: none;
 }
+#Layer1
+{
+   height: 551px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Layer1
+{
+   width: 100%;
+   margin: 0;
+}
+#Layer1
+{
+    width: 100%;
+    height: 551px;
+}
 #wb_LayoutGrid1
 {
    visibility: visible;
@@ -2777,7 +2730,7 @@ body
 #LayoutGrid2 > .row > .col-1
 {
    display: block;
-   width: 41.66666667%;
+   width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
@@ -2785,7 +2738,7 @@ body
 #LayoutGrid2 > .row > .col-2
 {
    display: block;
-   width: 58.33333333%;
+   width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: left;
@@ -2819,7 +2772,7 @@ body
 #LayoutGrid5 > .row > .col-1
 {
    display: block;
-   width: 41.66666667%;
+   width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
@@ -2827,7 +2780,7 @@ body
 #LayoutGrid5 > .row > .col-2
 {
    display: block;
-   width: 58.33333333%;
+   width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: left;
@@ -2861,7 +2814,7 @@ body
 #LayoutGrid6 > .row > .col-1
 {
    display: block;
-   width: 41.66666667%;
+   width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
@@ -2869,7 +2822,7 @@ body
 #LayoutGrid6 > .row > .col-2
 {
    display: block;
-   width: 58.33333333%;
+   width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: left;
@@ -3310,17 +3263,11 @@ body
 }
 #wb_Image2
 {
-   width: 384px;
-   height: 216px;
+   width: 100%;
    visibility: visible;
-   display: inline-block;
+   display: block;
    margin: 0;
    padding: 0;
-}
-#Image2
-{
-   width: 384px;
-   height: 216px;
 }
 #wb_Text5
 {
@@ -3378,17 +3325,11 @@ body
 }
 #wb_Image3
 {
-   width: 384px;
-   height: 216px;
+   width: 100%;
    visibility: visible;
-   display: inline-block;
+   display: block;
    margin: 0;
    padding: 0;
-}
-#Image3
-{
-   width: 384px;
-   height: 216px;
 }
 #wb_Text6
 {
@@ -3446,17 +3387,11 @@ body
 }
 #wb_Image4
 {
-   width: 219px;
-   height: 219px;
+   width: 100%;
    visibility: visible;
-   display: inline-block;
+   display: block;
    margin: 0;
    padding: 0;
-}
-#Image4
-{
-   width: 219px;
-   height: 219px;
 }
 #wb_PageHeader
 {
